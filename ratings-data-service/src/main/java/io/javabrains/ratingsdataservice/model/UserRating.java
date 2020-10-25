@@ -11,16 +11,16 @@ public class UserRating {
 		this.ratings = ratings;
 	}
 
-    public UserRating() {
- 
-  	}
+	public UserRating() {
+		
+	}
 
 	public List<Rating> getRatings() {
-	    return ratings;
+		return ratings;
 	}
 
 	public void setRatings(List<Rating> ratings) {
-	    this.ratings = ratings;
+		this.ratings = ratings;
 	}
 
 }

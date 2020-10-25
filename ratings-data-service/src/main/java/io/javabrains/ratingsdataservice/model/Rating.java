@@ -16,11 +16,11 @@ public class Rating {
 		this.userId = userId;
 	}
     
-    public Rating() {
+	public Rating() {
+	
+	}
 
-    }
-
-    public String getUserId() {
+	public String getUserId() {
 		return userId;
 	}
 
@@ -36,11 +36,11 @@ public class Rating {
 		this.movieId = movieId;
 	}
 
-    public int getRating() {
-        return rating;
-    }
+	public int getRating() {
+		return rating;
+	}
 
-    public void setRating(int rating) {
-        this.rating = rating;
-    }
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
 }
