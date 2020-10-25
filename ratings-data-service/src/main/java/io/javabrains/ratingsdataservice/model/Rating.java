@@ -6,16 +6,15 @@ import javax.persistence.Id;
 @Entity
 public class Rating {
 	@Id
-    private String movieId;
-    private int rating;
-    private String userId;
+	private String movieId;
+	private int rating;
+	private String userId;
 
-    public Rating(String movieId, int rating,String userId) {
-        this.movieId = movieId;
-        this.rating = rating;
-        this.userId = userId;
-
-    }
+	public Rating(String movieId, int rating,String userId) {
+		this.movieId = movieId;
+		this.rating = rating;
+		this.userId = userId;
+	}
     
     public Rating() {
 
@@ -30,12 +29,12 @@ public class Rating {
 	}
 
 	public String getMovieId() {
-        return movieId;
-    }
+		return movieId;
+	}
 
-    public void setMovieId(String movieId) {
-        this.movieId = movieId;
-    }
+	public void setMovieId(String movieId) {
+		this.movieId = movieId;
+	}
 
     public int getRating() {
         return rating;
